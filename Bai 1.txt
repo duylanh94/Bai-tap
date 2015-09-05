@@ -30,7 +30,7 @@ public class Bai1 {
         int[] diemSinhVien = new int[N]; // Khai bao mang diem
         // Nhap cac gia tri
         for (i = 0; i < N; i++) {
-            System.out.println("Nhap MSSV ");
+            System.out.println("Nhap mã số sinh viên: ");
             maSoSinhVien[i] = inputData.nextInt();//Nhap MSSV
             System.out.println("Nhap ten Sinh Vien ");
             tenSinhVien[i] = new Scanner(System.in).nextLine();// Nhap ten sinh vien
